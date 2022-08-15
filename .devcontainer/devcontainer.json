@@ -1,0 +1,21 @@
+{
+  "name": "conda-music-repo-template.templates.utkusarioglu-com",
+  "dockerComposeFile": [
+    "../.docker/docker-compose.dev.yml",
+    "docker-compose.yml"
+  ],
+  "service": "jupyter",
+  "workspaceFolder": "utkusarioglu-com/templates/conda-music-repo-template",
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#002244"
+    }
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "features": {
+    "github-cli": "latest"
+  }
+}

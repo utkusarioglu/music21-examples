@@ -1,0 +1,9 @@
+{
+  "python.formatting.provider": "black",
+  "jupyter.kernels.filter": [
+    {
+      "path": "/opt/conda/bin/python",
+      "type": "pythonEnvironment"
+    },
+  ]
+}

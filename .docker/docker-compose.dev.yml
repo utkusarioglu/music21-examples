@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  jupyter:
+    image: utkusarioglu/conda-music-devcontainer:1.0.0
+    volumes:
+      - ..:/utkusarioglu-com/templates/conda-music-repo-template
