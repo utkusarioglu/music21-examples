@@ -1,11 +1,11 @@
 {
-  "name": "conda-music-repo-template.templates.utkusarioglu-com",
+  "name": "music21-workshop.workshops.utkusarioglu-com",
   "dockerComposeFile": [
     "../.docker/docker-compose.dev.yml",
     "docker-compose.yml"
   ],
   "service": "jupyter",
-  "workspaceFolder": "utkusarioglu-com/templates/conda-music-repo-template",
+  "workspaceFolder": "utkusarioglu-com/workshops/music21-workshop",
   "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#002244"

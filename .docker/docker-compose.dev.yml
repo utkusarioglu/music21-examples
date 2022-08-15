@@ -4,4 +4,4 @@ services:
   jupyter:
     image: utkusarioglu/conda-music-devcontainer:1.0.0
     volumes:
-      - ..:/utkusarioglu-com/templates/conda-music-repo-template
+      - ..:/utkusarioglu-com/workshops/music21-workshop
