@@ -5,7 +5,7 @@
     "docker-compose.yml"
   ],
   "service": "jupyter",
-  "workspaceFolder": "utkusarioglu-com/workshops/music21-workshop",
+  "workspaceFolder": "/utkusarioglu-com/workshops/music21-workshop",
   "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#002244"
