@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   jupyter:
-    image: utkusarioglu/conda-music-devcontainer:1.0.0
+    image: utkusarioglu/conda-music-devcontainer:1.0.5
     volumes:
       - ..:/utkusarioglu-com/workshops/music21-workshop
