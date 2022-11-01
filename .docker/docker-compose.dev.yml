@@ -4,4 +4,9 @@ services:
   jupyter:
     image: utkusarioglu/conda-music-devcontainer:1.0.5
     volumes:
-      - ..:/utkusarioglu-com/workshops/music21-workshop
+      - type: bind
+        source: ..
+        target: /utkusarioglu-com/workshops/music21-workshop
+      - type: bind
+        source: /mnt/d/Audio/Midi/music21-workshop
+        target: /utkusarioglu-com/workshops/music21-workshop/artifacts
