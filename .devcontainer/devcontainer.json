@@ -4,7 +4,7 @@
     "../.docker/docker-compose.dev.yml",
     "docker-compose.yml"
   ],
-  "service": "jupyter",
+  "service": "music21-workshop",
   "workspaceFolder": "/utkusarioglu-com/workshops/music21-workshop",
   "settings": {
     "workbench.colorCustomizations": {
@@ -14,5 +14,6 @@
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter"
-  ]
+  ],
+  "postCreateCommand": "scripts/post-create-command.sh"
 }
